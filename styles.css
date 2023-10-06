@@ -1,0 +1,654 @@
+@charset "utf-8";
+
+/*........................................................................*/
+
+
+body{
+	margin: 0px;
+
+}
+
+
+/*........................................................................*/
+
+
+
+.fundo{
+    background-color: #f2f2f2;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+	margin: 0px;
+}
+
+
+
+/*........................................................................*/
+
+
+
+.centralizar{
+	align-content: center;
+	text-align: center;		
+}
+
+
+
+/*........................................................................*/
+
+
+
+.botao-ajuda {
+   display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+	color: #1C1C1C;
+    background-color: #A9A9A9;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.botao-ajuda:hover {
+   background-color:#DCDCDC;
+}
+
+/*........................................................................*/
+
+
+
+.button-decorativo{
+	padding: 5px 10px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #A9A9A9;
+    border: none;
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-decorativo:hover{
+   background-color:#DCDCDC;		
+}
+
+
+
+.botao-retangulo-redondo {
+    padding: 10px 20px;
+    border: none;
+    background-color: #DCDCDC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*........................................................................*/
+
+.container-pai {
+    display: flex;
+
+}
+
+.container-blusa {
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ margin-left: 300px; /* Margem à esquerda */
+ padding: 10px;
+ width: 350px;
+ height: 450px;
+}
+    
+  
+
+.container-desc {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 350px;
+    height: 450px;
+
+}
+
+.container-desc p{
+	margin-top: 20px;
+}
+
+.container-inform {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    height: 450px;
+    margin-right: 300px; /* Espaço entre os containers */
+	margin-left: 15px;
+}
+
+.container-inform2 {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 1000px;
+    height: 450px;
+    margin-right: 450px; /* Espaço entre os containers */
+	margin-left: 450px;
+     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+.product-image {
+    width: 350px;
+    height: 440px; 
+    margin-right: 30px;
+    margin-top: 20px;
+ }
+
+.blusa-container {
+	display: flex;
+    justify-content:center; 
+    gap: 15px;
+    flex-wrap: wrap;
+   
+}
+
+.blusa-item {
+	
+	text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    width: 200px;
+    margin: 5px;
+    background-color: #f9f9f9;	
+}
+
+.blusa-item img{
+	
+	max-width: 100%;
+    border-radius: 8px;
+	
+}
+
+/*........................................................................*/
+
+
+.comprar-button {
+       
+    padding: 10px 20px;
+    background-color: #D3D3D3;
+    color: #363636;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comprar-button:hover {
+    background-color: #696969;
+}
+
+.preco {
+     color: #696969;
+    font-weight: bold;
+}
+
+
+/*........................................................................*/
+
+
+.container-nasc{
+	
+	display: flex;
+    justify-content:center; 
+    gap: 5px;
+    flex-wrap: wrap;
+	
+}
+
+/*........................................................................*/
+
+
+ 
+.pesquisar-button{
+    padding: 5px 10px;
+    font-size:  14px;
+    color: #fff;
+    background-color: #333; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: flex-start;
+	margin-left: 10px;
+}
+
+.pesquisar-button:hover{
+	background-color: #666; 
+}
+
+
+
+/*........................................................................*/
+
+
+
+.button-r{
+	padding: 5px 10px;
+    font-size: 14px;
+    color: 	#1C1C1C;
+    background-color: #A9A9A9; 
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;	
+	margin-top: 15px;
+}
+
+.button-r:hover{
+	background-color: #DCDCDC; 	
+}
+
+
+/*........................................................................*/
+
+
+
+.caixanav{
+	margin: 5% 10% 10 10%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+/*........................................................................*/
+
+
+
+.button-enviar{
+	padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: 	#fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.button-enviar:hover{
+	 background-color: #666;
+}
+
+
+
+/*........................................................................*/
+
+
+
+.caixa-texto{
+	
+	 width: 500px;		
+}
+
+.caixa-txt{
+	width: 350px; 
+    height: 8px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    resize: none; 
+    justify-content: flex-start;
+}
+
+.caixa-txt2{
+	width: 60px; 
+    height: 8px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    resize: none; 
+}
+
+.caixa-txt3{
+	width: 105px; 
+    height: 8px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    resize: none; 
+}
+
+.caixa-txt4{
+	width: 505px; 
+    height: 8px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    resize: none; 
+}
+
+.caixa-txt5{
+	width: 205px; 
+    height: 5px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    resize: none; 
+}
+
+/*........................................................................*/
+
+
+.pesquisar-cep{
+	padding: 5px 10px;
+    font-size:  14px;
+    color: #fff;
+    background-color: #666; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: flex-start;
+}
+
+.pesquisar-cep:hover{
+	background-color: 	#708090; 
+}
+
+
+/*........................................................................*/
+
+
+.genero{
+	width: 100px; 
+	height: 8px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    resize: none; 
+	name:"genero";
+}
+
+/*........................................................................*/
+
+
+
+.aqui-button{
+	padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #666;
+    border: none;
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.aqui-button:hover {
+    background-color: #DCDCDC;	
+}
+
+.voltar-button{
+	padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: 	#1C1C1C;
+    background-color: #A9A9A9;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.voltar-button:hover{
+	background-color: #DCDCDC;	
+}
+
+
+/*........................................................................*/
+
+
+.redefinir-senha{
+	padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: 	#1C1C1C;
+    background-color: #A9A9A9;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:  0.3s ease;
+}
+
+.redefinir-senha:hover{
+	background-color: #DCDCDC;	
+}
+
+
+/*........................................................................*/
+
+
+.subbarra{
+	display:flex;	
+	justify-content: space-between;
+    padding: 10px 0;    
+    width: 100%;        
+}
+
+.subbarra-img{	
+    width: auto;	
+}
+
+.subbarra-img img{
+	width: 20vw;	
+}
+
+.subbarra-pesq{
+	display: flex;
+	align-items: center;
+	margin-right: 10vw;	
+}
+
+.subbarra-cad-log{ 
+	
+	margin-top: 80px;		
+}
+
+.subbarra-menor {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    display: flex; 
+    align-items: center; 
+}
+
+/*........................................................................*/
+
+
+.cep {
+	 margin-left: 10px;
+}
+
+.paragrafo-destaque {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+/*........................................................................*/
+
+
+
+
+
+/*.........................................................................*/
+
+
+
+.comprar-button2 {
+      
+    padding: 10px 20px;
+    background-color: #D3D3D3;
+    color: #363636;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	margin-left: 400px;
+	margin-top: 40px;
+}
+
+.comprar-button2:hover {
+    background-color: #696969;
+}
+
+
+/*.........................................................................*/
+
+
+
+.inform{
+	padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #666;
+    border: none;
+    border-radius: 20px; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.inform:hover {
+    background-color: #DCDCDC;	
+}
+
+/*.........................................................................*/
+
+.preco{
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.desconto-preco {
+  color: #000000;
+  font-size: 30px; /* Aumenta o tamanho da fonte */
+  margin-left: 0px;
+
+}
+
+.preco-original {
+  text-decoration: line-through; /* Preço original com linha no meio */
+  color: #999;
+}
+
+.opcoes-paga ul, .parcelar select {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*.......................................................................*/
+
+.opcoes-paga li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.parcelar select {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pag-p {
+	color: darkgray;
+	margin-left: 10px;
+}
+
+/*.........................................................................*/
+
+
+.p-inform{
+	text-align: center;
+	font-size: 23px;
+}
+.linha-de-separacao {
+    border: none;
+    border-top: 2px solid #333; /* Escolha a cor e espessura da linha desejadas */
+}
+
+.p-inform2{
+	margin-left: 15px;
+	color: #000000;
+	font-size: 17.4px;
+}
+
+/*.........................................................................*/
+
+
+
+.anun{
+	color: #000000;
+	text-align: center; 
+}
+
+
+/*.......................................................................*/
+
+.ava {
+  margin-top: 130px;
+  display: inline-flex;
+  flex-direction: row-reverse; /* Inverta a direção das estrelas */
+}
+
+.ava input[type="radio"] {
+  display: none;
+}
+
+.ava label {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.ava label::before {
+  content: "\2605";
+  color: #ccc;
+}
+
+.ava input[type="radio"]:checked ~ label::before {
+  color: #FFD700; /* Cor amarela para estrelas selecionadas */
+}
+
+/*.........................................................................*/
+
+
+
+
+
+
